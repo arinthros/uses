@@ -1,4 +1,4 @@
-# Software
+## Software
 
 ### Code Editor
 - [VSCode](https://code.visualstudio.com/)
@@ -40,7 +40,7 @@
 - [Ubuntu](https://ubuntu.com/download/desktop)
 - [pgAdmin](https://www.pgadmin.org/)
 
-# Office
+## Office
 
 - [Drevo Excalibur keyboard](https://www.drevo.net/product/keyboard/excalibur-cherry-mx) with Cherry MX Brown switches
 - [Anker vertical ergonomic mouse](https://www.anker.com/products/variant/anker-24g-wireless-vertical-ergonomic-optical-mouse/A7852011)
