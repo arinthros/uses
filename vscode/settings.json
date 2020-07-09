@@ -1,0 +1,35 @@
+{
+  "terminal.integrated.rendererType": "dom",
+  "emmet.includeLanguages": {
+      "erb": "html",
+      "ruby": "html",
+      "html.erb": "html",
+      "javascript": "javascriptreact",
+      "marko": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.wordWrap": "on",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "cSpell.userWords": [
+    "fastify",
+    "labelledby",
+    "lifechurch",
+    "marko",
+    "testid",
+    "tupos",
+    "usfm",
+    "youversion"
+  ],
+  "window.zoomLevel": -1,
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Gruvbox Dark (Medium)",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+}

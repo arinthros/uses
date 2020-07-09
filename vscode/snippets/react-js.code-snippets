@@ -1,0 +1,98 @@
+{
+  // Place in the snippets folder of vscode
+  "Create empty component": {
+    "scope": "javascript",
+    "prefix": "impc",
+    "body": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "export function $1({$2}) {",
+      "",
+      "  return (",
+      "    <>",
+      "      $0",
+      "    </>",
+      "  )",
+      "}",
+      "",
+      "$1.propTypes = {",
+      "  $2",
+      "}",
+      "",
+      "$1.defaultProps = {",
+      "  $2",
+      "}",
+      "",
+    ],
+    "description": "Creates empty component"
+  },
+  "Jest describe block": {
+    "prefix": "desc",
+    "body": [
+      "describe('$1', () => {",
+      "  $2",
+      "})"
+    ]
+  },
+  "Jest it block": {
+    "prefix": "it",
+    "body": [
+      "it('$1', () => {",
+      "  $2",
+      "})"
+    ]
+  },
+
+  // From Kent C. Dodds (https://github.com/kentcdodds/ama/issues/406)
+  "try/catch": {
+    "prefix": "try",
+    "body": [
+      "try {",
+      "  $1",
+      "} catch (error) {",
+      "  $0",
+      "}"
+    ]
+  },
+  "async function": {
+    "prefix": "afun",
+    "body": [
+      "async function $1($2) {",
+      "  $0",
+      "}"
+    ]
+  },
+  "throw log": {
+    "prefix": "tl",
+    "body": "throw new Error(JSON.stringify({$0}, null, 2))"
+  },
+  "React.useState": {
+    "prefix": "us",
+    "body": [
+      "const [${1:state}, ${2:setState}] = React.useState($3)$0"
+    ]
+  },
+  "React.useEffect": {
+    "prefix": "uf",
+    "body": [
+      "React.useEffect(() => {",
+      "  $0",
+      "}, [])"
+    ]
+  },
+  "React.useReducer": {
+    "prefix": "ur",
+    "body": [
+      "const [state, dispatch] = React.useReducer(${1:someReducer}, {",
+      "  $0",
+      "})"
+    ]
+  },
+  "React.useRef": {
+    "prefix": "urf",
+    "body": [
+      "const ${1:someRef} = React.useRef($2)$0"
+    ]
+  },
+}
